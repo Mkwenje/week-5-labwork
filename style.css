@@ -1,0 +1,66 @@
+/* main - see media queries below */
+
+body{
+	color: #665544;
+	background-color: white;
+	padding: 20px;
+}
+
+p{
+	width: 450px
+}
+
+img.sml{
+	width: 200px;
+	height: 200px;
+}
+
+
+
+h1{
+	background-color: white;
+}
+
+.example{
+	margin-top: 100px;
+}
+
+td, th{
+    border: 2px solid black;
+
+    text-align: center;
+}
+
+/* On screens that are 992px or less, set the background color to violet */
+@media screen and (max-width: 992px) {
+  body {
+
+    background-color: violet;
+  }
+  img.sml{
+  	width: 200px;
+  	height: 200px;
+  }
+  td, th{
+      border: 2px solid black;
+
+      text-align: center;
+  }
+
+/* On screens that are 600px or less, set the background color to pink */
+@media screen and (max-width: 600px) {
+  body {
+   	background-color: pink;
+  }
+  img.sml{
+  	width: 200px;
+  	height: 200px;
+  }
+
+
+
+td, th{
+    border: 2px solid black;
+
+    text-align: center;
+}
